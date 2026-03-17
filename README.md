@@ -15,7 +15,7 @@ Uso de @dataclass
 
 Operações matemáticas com o módulo math
 
-📦 Estrutura do Projeto
+Estrutura do Projeto
 esfera.py
 README.md
 
@@ -23,7 +23,7 @@ esfera.py → implementação da classe Esfera
 
 README.md → documentação do projeto
 
-🚀 Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 Python
 
@@ -31,7 +31,8 @@ Biblioteca padrão math
 
 dataclasses (recurso moderno para simplificar classes)
 
-🧠 Conceitos Demonstrados
+
+Conceitos Demonstrados
 Classe
 
 A classe Esfera representa um modelo de esfera com dois atributos:
@@ -90,14 +91,14 @@ Calcula o diâmetro da esfera.
 D=2r
 def diametro(self):
     return 2 * self.raio
-🛡️ Validação de Dados
+Validação de Dados
 
 O método __post_init__ garante que o raio seja maior que zero.
 
 def __post_init__(self):
     if self.raio <= 0:
         raise ValueError("O raio deve ser maior que zero.")
-▶️ Como Executar
+Como Executar
 
 Certifique-se de ter Python instalado.
 
@@ -106,12 +107,13 @@ python3 --version
 Execute o arquivo:
 
 python3 esfera.py
-📊 Exemplo de Saída
+ Exemplo de Saída
 Esfera cor=vermelha, raio=4
 Volume: 268.08 cm³
 Área: 201.06 cm²
 Diâmetro: 8.00 cm
-🎯 Objetivo Educacional
+
+Objetivo Educacional
 
 Este projeto foi desenvolvido para praticar conceitos fundamentais de:
 
@@ -123,7 +125,7 @@ Modelagem de objetos do mundo real
 
 Também serve como exercício prático para estudantes iniciantes em programação.
 
-📚 Possíveis Melhorias Futuras
+Possíveis Melhorias Futuras
 
 Implementar cálculo de densidade
 
@@ -131,4 +133,4 @@ Adicionar testes automatizados
 
 Criar interface gráfica
 
-Transformar em API com Flask ou FastAPI
+
